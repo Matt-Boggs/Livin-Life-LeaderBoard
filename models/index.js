@@ -1,3 +1,4 @@
 module.exports = {
-  Mock: require("./mock")
+  Champion: require("./champion"),
+  Upkeep: require("./upkeep")
 };
