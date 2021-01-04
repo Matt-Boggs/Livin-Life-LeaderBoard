@@ -6,7 +6,7 @@ const upkeepSchema = new Schema({
     // MOST OF THESE THINGS WILL BE ARRAYS FOR NOW, THE USER SHOULD BE PICKING FROM CHOICES, NOT PROVIDING THEIR OWN
 
 
-  name: { type: String, required: true },
+  deed: { type: String, required: true },
   // Everything below is preliminary
 
   // something like [Physical, Mental, Spiritual]
