@@ -21,6 +21,6 @@ const upkeepSchema = new Schema({
 
 });
 
-const Champion = mongoose.model("Champion", championSchema);
+const Upkeep = mongoose.model("Upkeep", upkeepSchema);
 
-module.exports = Champion;
+module.exports = Upkeep;
